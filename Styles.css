@@ -1,0 +1,83 @@
+body{
+    font-family: Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(155, 248, 233);
+    color: rgb(0, 0, 0);
+    /* margin auto; */
+    background-image: url(./Adventure-Time-tree-house-nature-mountains-1874313.jpg);
+    background-repeat: repeat-y repeat-x;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 2em auto;
+    padding-bottom: 1.3em;
+    border: 2px solid black;
+    background-color: #ccccccdd;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.35) ;
+
+}
+
+label {
+    display: block;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    margin: 0.5em auto;
+}
+
+header {
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+}
+
+#description {
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 1em auto;
+}
+
+#title{
+    margin: 1em auto;
+}
+
+#submit {
+    margin-top: 2em;
+    width: auto;
+}
+#name-label, 
+#email-label, 
+#number-label {
+    margin-bottom: 1em;
+}
+
+#name,
+#email,
+#age {
+    margin-bottom: 1em;
+}
+
+p{
+    margin: 1rem;
+}
+
+#name-label {
+    margin-top: 1em;
+}
+
+input,
+textarea {
+    background-color: #ccccccdd;
+    color: black;
+}

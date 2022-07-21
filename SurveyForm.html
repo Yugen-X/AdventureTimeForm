@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adventure Time Form</title>
+</head>
+
+<body>
+    <div>
+        <header>
+        <h1 id="title">Adventure Time Fan Form</h1>
+        <p id="description">A small site I made for Adventure Time fans!</p>
+        </header>
+        <form id="survey-form">
+        <div class="form-group">
+            <label for="name" id="name-label">Enter Your Name</label>
+            <input type="text" name="name" id="name" placeholder="Gimmie Da Name !" required>
+        </div>
+        <div class="form-group">
+            <label for="email" id="email-label">Enter Your Email</label>
+            <input type="email" name="email" id="email" required placeholder="Gimmie Da Email !">
+        </div>
+        <div class="form-group">
+            <label for="age" id="number-label">Enter Your Age (optional)</label>
+            <input type="number" name="age" id="number" placeholder="Age" min="12" max="120">
+        </div>
+        <div class="form-group">
+            <p>Who's Your Favorite Character</p>
+            <select name="character" id="dropdown">
+                <option value="">Select One</option>
+                <option value="finn">Finn The Human</option>
+                <option value="jake">Jake The Dog</option>
+                <option value="bmo">BMO</option>
+                <option value="princess">Princess Bubblegum</option>
+                <option value="peppermint">Peppermint Butler</option>
+                <option value="marci">Marceline</option>
+                <option value="ice-king">Ice King</option>
+                <option value="gunter">Gunter</option>
+                <option value="lemon-grab">Lemon Grab</option>
+                <option value="tiffany">Tiffany</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Do you love Adventure Time?</p>
+            <label for="yes" class="inline"><input type="radio" name="option" id="yes" value="yes"> YES!</label>
+            <label for="no" class="inline"><input type="radio" name="option" id="no" value="no"> Nah</label>
+            <label for="maybe" class="inline"><input type="radio" name="option" id="maybe" value="maybe"> Only On The Weekends</label>
+        </div>
+        <div class="form-group">
+            <p>Favorite Distant Lands Episode (Check All That Apply)</p>
+            <label for="bmo-checkbox" class="inline"><input type="checkbox" name="bmo-checkbox" id="bmo-checkbox" value="fav_BMO"> BMO</label>
+            <label for="obsidian" class="inline"><input type="checkbox" name="obsidian" id="obsidian" value="fav_Obsidian"> Obsidian</label>
+            <label for="together" class="inline"><input type="checkbox" name="together" id="together" value="fav_Together-Again"> Together Again</label>
+            <label for="wizards" class="inline"><input type="checkbox" name="wizards" id="wizards" value="fav_Wizard-City"> Wizard City</label>
+        </div>
+        <div class="form-group">
+            <p>Comments ?</p>
+            <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Comments For Grob,Gob,Glob and Grod"></textarea>
+        </div>
+        <div class="form-group">
+            <input id="submit" type="submit" value="Send To The Cosmic Owl!">
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
